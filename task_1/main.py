@@ -64,7 +64,7 @@ def total_salary(path):
                     # перетворюємо строку в число і додаємо до загальної суми заробітної плати
                     total = total + int(salary_str)
                     # рахуємо середню заробітну плату
-                    average = int(total/lines)
+                    average = int(total / lines)
                 else: 
                     break
             return total, average

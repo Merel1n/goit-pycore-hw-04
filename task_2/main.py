@@ -66,7 +66,7 @@ def get_cats_info(path):
                      # Робимо зріз після першої коми і знаходимо другу кому
                     find_second_point = line[find_first_point + 1:].find(',')
                     # Зберігаємо тимчасовий рядок
-                    sting_split = line[find_first_point+1:]
+                    sting_split = line[find_first_point + 1:]
                     # із тимчасового рядка робимо зріз до другої коми формуючи імя
                     name = sting_split[:find_second_point]
                     # Робимо зріз після 2х ком формуючи вік
